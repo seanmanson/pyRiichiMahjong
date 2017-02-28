@@ -1,8 +1,16 @@
-___pyRiichiMahjong Installation/Execution help notes___
-=======================================================
+pyRiichiMahjong
+===============
 
-Installation:
--------------
+*Note:* The code in this repository was created for my 2013
+CSSE1001 course for UQ, created as my major project for the
+last assignment. It has not been altered since then. I was a
+novice programmer at the time, and so the approach I took is
+not representative of my ability at this point in time.
+
+
+
+Installation
+------------
 
 This game does not require any prior installation on the
 behalf of the user before running. Simply extract the zip
@@ -10,8 +18,8 @@ file to any location you wish, ensuring that you keep the
 original directory structure intact.
 
 
-Requirements, Libraries and Compatibility:
-------------------------------------------
+Requirements, Libraries and Compatibility
+-----------------------------------------
 
 This program was developed using an official build of 
 python 2.7.3 on 64-bit Windows 7, along with the following
@@ -32,8 +40,8 @@ newer versions of python and these libraries has NOT been
 tested, however, so attempt it at your own risk.
 
 
-Running the Game:
------------------
+Running the Game
+----------------
 
 To run the program, simply execute the file 'main.pyw' in 
 the root directory of the game, taking care to leave all 
@@ -52,8 +60,8 @@ directory before execution if running the game from the
 command line.
 
 
-Uninstallation:
----------------
+Uninstallation
+--------------
 
 To delete this game, merely delete the folder extracted
 from the zip file containing the game. This program does 
@@ -79,8 +87,8 @@ program can be found at:
    http://www.gamedesign.jp/flash/mahjong/mahjong_e.html
 
 
-Save Game Notes:
-----------------
+Save Game Notes
+---------------
 
 The save directory for this program is under:
    ./resources/savefolder/
@@ -94,8 +102,8 @@ folder where it is otherwise the game will act irregularly
 when attempting to save.
 
 
-Config File Notes:
-------------------
+Config File Notes
+-----------------
 
 There are two means through which users may make changes to the
 base settings of this game. 
@@ -117,8 +125,8 @@ can change some of them freely, such as those refering to image
 locations and the like.
 
 
-Mahjong Package Notes:
-----------------------
+Mahjong Package Notes
+---------------------
 
 There is a mahjong package contained in this game release under:
    ./mahjong_scripts/mahjong_rulebase/
@@ -132,8 +140,8 @@ independent, you are free to copy it out of here and use in your
 own programs with no consequence.
 
 
-License:
---------
+License
+-------
 
 This program is released under the following 2-clause BSD 
 license for the purpose of responding to Assignment 3 in 
