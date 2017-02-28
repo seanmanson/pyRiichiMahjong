@@ -1,0 +1,8 @@
+#The default gameplay settings.
+#Allows you to pretty much set up the gameplay how you want (note that this might not be supported in a GUI sense)
+handsize;14;Sets the maximum hand size for all players. (default of 14)
+suitnum;3;The amount of numbered suits in use. All other suits are considered to be honours. (default of 3)
+totalsuitnum;5;The total amount of suits in use.
+repeat;4;The amount of each different tile in the wall. (default of 4)
+tilefile;./resources/tile.txt;The name of the file containing the tile information.
+yakufile;./resources/yaku.txt;The name of the file containing the yaku information.

@@ -1,0 +1,8 @@
+pyRiichiMahjong -- A game for python by Sean Manson.
+Made as a part of UQ's CSSE1001 Major Project.
+Distributed under the 2-clause BSD license (c) 2013, Sean Manson.
+Unless otherwise indicated below, all images, code and sounds in this program have been created by myself.
+Thanks to Martin Persson for his set of mahjong tile icons and sprites.
+Thanks to Osamuko for his photo of a mahjong tile (edited).
+Thanks to Picgifs.com for the set of dice sprites.
+Thanks to Soundbible for their score changing chime tune.

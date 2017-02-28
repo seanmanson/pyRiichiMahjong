@@ -1,0 +1,47 @@
+#List of all yaku used, their names, description etc. their han score and audio file
+#Dora are not included
+#Info is given as 'yaku ID,yaku name,scoreclosed,scoreopen,audio file,yaku this one invalidates (separated by commas),description'
+#Thanks to Wei-Hwa Huang for the list! (http://www.ofb.net/~whuang/ugcs/gp/mahjong/mahjong.html)
+tsumo;Menzen Tsumo;1;0;;Fully closed hand won on self draw.
+riichi;Riichi;1;0;;Called riichi.
+riichidb;Double Riichi;2;0;riichi;Winning from riichi on the very first turn.
+ippatsu;Ippatsu;1;0;;Winning with riichi in the same turn you declare it.
+yakupaiGD;Green Dragon;1;1;;Three or four of a kind of the green dragon.
+yakupaiRD;Red Dragon;1;1;;Three or four of a kind of the red dragon.
+yakupaiWD;White Dragon;1;1;;Three or four of a kind of the white dragon.
+yakupaiRoundWind;Round Wind;1;1;;Three or four of a kind of the current round wind.
+yakupaiSeatWind;Seat Wind;1;1;;Three or four of a kind of the current seat wind.
+pinfu;Pinfu;1;0;;Strong or weakly closed hand with no bonus fu (ie. there are no three/four of a kinds, the pair is not an honour tile, and the wait is two-sided).
+tanyao;Tanyao;1;1;;No terminal or honour tiles.
+iipeikou;Iipeikou;1;0;;Two identical sequences in the same suit with a closed hand.
+rinshan;Rinshan Kaihou;1;1;;Winning from the dead wall draw. Translates as "The Flower on the Mountain".
+haitei;Haitei Raoyue;1;1;;Winning from the very last draw from the wall in the game. Translates as "Scooping the Moon from the Sea".
+houtei;Houtei Raoyui;1;1;;Winning from the very last discard in the game. Translates as "Scooping the Fish from the Rivers".
+itsuu;Ikkitsuukan;2;1;;Three sequences, forming 1 through 9 in the same suit.
+chanta;Hon Chanta Yaochuu;2;1;;Every meld has at least one terminal/honour tile, and the pair must be of a terminal/honour tile.
+sanshoku;Sanshoku Doujun;2;1;;Three of the same numerical sequence in three suits.
+sanshokualt;Sanshoku Doukou;2;2;;Three of the same numerical three/four of a kind in three suits.
+chiitoitsu;Chiitoitsu;2;0;;Seven pairs with no melds. You cannot have a four of a kind as a pair.
+toitoi;Toitoihou;2;2;;All melds are three/four of a kinds.
+sanankou;San'ankou;2;2;;Three of the melds are closed three/four of a kinds (the last one and the pair do not have to be closed).
+sankantsu;Sankantsu;2;2;;Three of the melds are four of a kinds.
+honitsu;Honiisou;3;2;;All tiles are either in the same numeric suit, or an honour tile (ie. two suits are absent). There must be an honour tile in the hand.
+junchan;Jun Chanta Yaochuu;3;2;chanta;Every meld has at least one terminal tile, and the pair must be of a terminal tile.
+ryanpeikou;Ryanpeikou;3;0;iipeikou;Two sets of two identical sequences with the same suit with a closed hand.
+shousangen;Little Three Dragons;4;4;yakupaiGD,yakupaiRD,yakupaiWD;Two three/four of a kinds and a pair of the dragons.
+honroutou;Honroutou;5;5;toitoi,chanta,junchan;All tiles are terminals or honours.
+honroutouPairs;Honroutou;2;2;;All tiles are terminals in a seven pair hand.
+chinitsu;Chin'iisou;6;5;honitsu;All tiles are of one numerical suit.
+#Here on out are yakuman (max score) hands:
+daisangen;Great Three Dragons;-1;-1;;Three three/four of a kinds of the dragons.
+shousuushi;Little Four Joys;-1;-1;;Three three/four of a kinds plus a pair of each wind.
+daisuushi;Big Four Joys;-1;-1;shousuushi;Four three/four of a kinds of each wind.
+suuankou;Suuankou;-1;0;;Four three/four of a kinds in a closed hand.
+suukantsu;Suukantsu;-1;-1;;Four four of a kinds.
+tsuiisou;Tsuiisou;-1;-1;;All honour tiles.
+chinroutou;Chinroutou;-1;-1;;All terminal tiles.
+ryuuiisou;All Green;-1;-1;;All tiles are green (ie. only green dragon and 2, 3, 4, 6 and 8 Sou tiles).
+chuuren;Nine Gates;-1;-1;;1112345678999 in a suit, plus any other tile in that suit.
+kokushi;Kokushi Musou;-1;-1;;One of each terminal and honour, plus any other terminal/honour. Translates as "Unparalleled Kingdom".
+tenhou;Tenhou;-1;-1;;Dealer winning from the initial draw.
+chiihou;Chiihou;-1;-1;;Non-dealer winning on their first draw when no pons/chis were called.

@@ -1,0 +1,10 @@
+self._repeat = 4
+self._suitnum = 3
+self._deadStart = 66
+self._deadEnd = 80
+self._curPos = 133
+self._doraInd = [74]
+self._ura = [75]
+self._tileFileLoc = './resources/tile.txt'
+self._uniwall = [Tile(11), Tile(21), Tile(31), Tile(12), Tile(22), Tile(32), Tile(13), Tile(23), Tile(33), Tile(14), Tile(24), Tile(34), Tile(15), Tile(25), Tile(35), Tile(16), Tile(26), Tile(36), Tile(17), Tile(27), Tile(37), Tile(18), Tile(28), Tile(38), Tile(19), Tile(29), Tile(39), Tile(41), Tile(42), Tile(43), Tile(51), Tile(52), Tile(53), Tile(54)]
+self._wall = [Tile(12), Tile(41), Tile(39), Tile(43), Tile(43), Tile(24), Tile(51), Tile(53), Tile(27), Tile(35), Tile(27), Tile(42), Tile(42), Tile(33), Tile(28), Tile(41), Tile(52), Tile(35), Tile(54), Tile(29), Tile(43), Tile(36), Tile(32), Tile(54), Tile(27), Tile(14), Tile(18), Tile(24), Tile(22), Tile(17), Tile(53), Tile(52), Tile(23), Tile(38), Tile(14), Tile(52), Tile(22), Tile(19), Tile(19), Tile(42), Tile(16), Tile(21), Tile(17), Tile(11), Tile(41), Tile(35), Tile(21), Tile(37), Tile(16), Tile(34), Tile(52), Tile(12), Tile(29), Tile(43), Tile(39), Tile(38), Tile(24), Tile(29), Tile(31), Tile(15), Tile(37), Tile(31), Tile(16), Tile(14), Tile(13), Tile(34), Tile(18), Tile(28), Tile(25), Tile(26), Tile(54), Tile(36), Tile(31), Tile(18), Tile(32), Tile(33), Tile(26), Tile(15), Tile(38), Tile(36), None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, Tile(39), Tile(13), Tile(31)]
